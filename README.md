@@ -12,3 +12,4 @@ The library used for rest communication between the apps was gRPC. By using that
 
 ## Next Improvements 
 - Add clean architecture to the project (had some issues generating protobuff files when I tried to use that type of architecture) 
+- external properties
