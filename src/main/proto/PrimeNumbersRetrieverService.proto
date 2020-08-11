@@ -1,0 +1,15 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.prime.proxy;
+
+message PrimeNumberSequenceRequest {
+    int32 limit = 1;
+}
+
+message PrimeNumberSequenceResponse {
+    repeated int32 numbers = 1;
+}
+
+service PrimeNumbersRetrieverService {
+    rpc retrieve(PrimeNumberSequenceRequest) returns (PrimeNumberSequenceResponse);
+}
