@@ -1,5 +1,8 @@
 package com.prime.proxy;
 
+import com.prime.calculator.PrimeNumberSequenceRequest;
+import com.prime.calculator.PrimeNumberSequenceResponse;
+import com.prime.calculator.PrimeNumbersRetrieverServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import org.springframework.web.bind.annotation.GetMapping;

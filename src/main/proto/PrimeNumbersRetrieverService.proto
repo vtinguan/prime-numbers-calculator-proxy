@@ -1,6 +1,6 @@
 syntax = "proto3";
 option java_multiple_files = true;
-package com.prime.proxy;
+package com.prime.calculator;
 
 message PrimeNumberSequenceRequest {
     int32 limit = 1;
